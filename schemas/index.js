@@ -5,6 +5,6 @@ module.exports = {
     updateUserSchema: require('./updateUser'),
     createPostSchema: require("./createpostSchema"),
     getAllPostsSchema: require("./getAllPostsSchema"),
-    updatePostSchema: require("./updatePostSchema")
-
+    updatePostSchema: require("./updatePostSchema"),
+    donations: require('./donations')
 }
